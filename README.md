@@ -98,6 +98,7 @@ FLAGS
 ```
 
 ### Notes:
+```
 Point 1,2,3,4: core.github_etl 
                         -> app.utils.GitHelper
                         -> app.utils.TransformationHelper 
@@ -105,5 +106,5 @@ Point 5: core.url_haus_extraction
                         -> app.utils.download_and_save
                         -> app.utils.extract_file
                         -> app.utils.transform_csv
-                                                
+```
 
