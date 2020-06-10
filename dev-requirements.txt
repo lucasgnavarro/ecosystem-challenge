@@ -1,0 +1,8 @@
+-r requirements.txt
+coverage
+isort
+pre-commit
+pylint
+pytest
+pytest-cov
+yapf
