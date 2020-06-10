@@ -7,7 +7,7 @@ To run this project you need to have [docker-compose](https://docs.docker.com/co
 ### Important notes:
 This project was built to run the requested jobs in two ways:
 - Running the scripts in [scripts](https://github.com/lucasgnavarro/ecosystem-challenge/tree/master/scripts) folder 
-- Make the requests to the FastApi service that this project provides you.
+- Making the requests to the FastApi service that this project provides you.
 
 ### Running the scripts
 - run `make build` to build the docker image.
@@ -17,11 +17,12 @@ This project was built to run the requested jobs in two ways:
 - run `make run` to start the FastApi server in [localhost](http://localhost:8000)
 - go to [swagger page](http://localhost:8000/docs) in the project to see all the active endpoints, you can finde payloads examples there.
 
-
+----
 ### Setup your local environment for development:
 **Pre-requisites:**
 - Python 3.7
-----
+
+**Setup your virtualenvironemt
 - run `make init-venv` to create a virtual environment and config git-hooks.
 - in the project root run `source .venv/bin/activate`
 
