@@ -1,6 +1,7 @@
 -r requirements.txt
 coverage
 isort
+mockito
 pre-commit
 pylint
 pytest
