@@ -22,7 +22,7 @@ This project was built to run the requested jobs in two ways:
 **Pre-requisites:**
 - Python 3.7
 
-**Setup your virtualenvironemt
+**Setup your virtualenvironemt**
 - run `make init-venv` to create a virtual environment and config git-hooks.
 - in the project root run `source .venv/bin/activate`
 
@@ -96,3 +96,14 @@ FLAGS
 (END)
 
 ```
+
+### Notes:
+Point 1,2,3,4: core.github_etl 
+                        -> app.utils.GitHelper
+                        -> app.utils.TransformationHelper 
+Point 5: core.url_haus_extraction
+                        -> app.utils.download_and_save
+                        -> app.utils.extract_file
+                        -> app.utils.transform_csv
+                                                
+
