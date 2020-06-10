@@ -50,7 +50,7 @@ COMMANDS
 (END)
 
 ```
-**To check each command usage
+**To check each command usage**
 -`python cli.py git_etl -h` 
 ```
 NAME
