@@ -51,7 +51,8 @@ COMMANDS
 
 ```
 **To check each command usage**
--`python cli.py git_etl -h` 
+
+- `python cli.py git_etl -h` 
 ```
 NAME
     cli.py git_etl - Extract valuable information from github repository
@@ -80,7 +81,7 @@ NOTES
 
 ```
 
--`python cli.py url_haus_extraction -h`
+- `python cli.py url_haus_extraction -h`
 ```
 NAME
     cli.py url_haus_extraction - Extract unique active malware urls from urlhaus
